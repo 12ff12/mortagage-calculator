@@ -1,0 +1,123 @@
+/* Main results container */
+.YourResult {
+    background-color: #133040;
+    border-top-right-radius: clamp(10px, 1vw, 50px);
+    border-bottom-right-radius: clamp(10px, 1vw, 50px);
+    border-bottom-left-radius: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+/* Helper text styles */
+#comment {
+    width: 70%;
+    color: #668395;
+    font-size: 0.85em;
+    text-align: center;
+    margin-top: 0;
+}
+
+#title-result {
+    color: white;
+    top: 5%;
+    left: 10%;
+    position: absolute;
+}
+
+#result {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 70%;
+    color: #668395;
+    font-size: 0.85em;
+    margin-top: 0;
+}
+
+/* Results display container */
+.results-container {
+    border-top: 3px solid yellow;    
+    background-color: #0E2431;
+    height: 50%;
+    width: 80%;
+    position: absolute;
+    top: 37%;
+    border-radius: 0.5vh;
+}
+
+/* Monthly payment section */
+.monthlyRepayment-container {
+    position: relative;
+    background-color: ;
+    height: 60%;
+    border-top-right-radius: 0.5vh;
+    border-top-left-radius: 0.5vh;
+}
+
+/* Total payment section */
+.total-container {
+    background-color: ;
+    position: relative;
+    height: 40%;
+    border-bottom-right-radius: 0.5vh;
+    border-bottom-left-radius: 0.5vh;
+}
+
+.result-comment {
+    color: #668395;
+    font-size: 0.85em;
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+    top: 20%;
+    left: 10%;
+}
+
+/* Divider line */
+hr {
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+    color: #3B5463;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+/* Monthly payment amount */
+#theResult1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-weight: bold;
+    color: yellow;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+/* Total payment amount */
+#theResult2 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-weight: bolder;
+    color: white;
+    font-size: x-large;
+    margin-top: 0;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+    .YourResult {
+        width: 100vw;
+        position: relative;
+        height: 40vh;
+        border-radius: 0;
+    }
+}
